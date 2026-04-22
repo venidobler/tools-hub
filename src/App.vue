@@ -25,6 +25,12 @@ import { RouterLink, RouterView } from 'vue-router'
         >
           Conversor de Cores
         </RouterLink>
+        <RouterLink 
+          to="/base64" 
+          class="block px-4 py-3 rounded-lg transition-colors hover:bg-slate-700 active-link"
+        >
+          Base64 Converter
+        </RouterLink>
       </nav>
     </aside>
 
