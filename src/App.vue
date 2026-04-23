@@ -31,6 +31,12 @@ import { RouterLink, RouterView } from 'vue-router'
         >
           Base64 Converter
         </RouterLink>
+        <RouterLink
+          to="/timestamp"
+          class="block px-4 py-3 rounded-lg transition-colors hover:bg-slate-700 active-link"
+        >
+          Timestamp Converter
+        </RouterLink>
       </nav>
     </aside>
 
