@@ -37,6 +37,12 @@ import { RouterLink, RouterView } from 'vue-router'
         >
           Timestamp Converter
         </RouterLink>
+        <RouterLink
+          to="/password"
+          class="block px-4 py-3 rounded-lg transition-colors hover:bg-slate-700 active-link"
+          >
+          Gerador de Senhas
+        </RouterLink>
       </nav>
     </aside>
 
