@@ -43,6 +43,9 @@ import { RouterLink, RouterView } from 'vue-router'
           >
           Gerador de Senhas
         </RouterLink>
+        <RouterLink to="/slug" class="block px-4 py-3 rounded-lg transition-colors hover:bg-slate-700 active-link">
+          Gerador de Slug
+        </RouterLink>
       </nav>
     </aside>
 
