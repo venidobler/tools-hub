@@ -5,6 +5,7 @@ import Base64Converter from '../views/Base64Converter.vue'
 import TimestampConverter from '@/views/TimestampConverter.vue'
 import PasswordGenerator from '@/views/PasswordGenerator.vue'
 import SlugGenerator from '@/views/SlugGenerator.vue'
+import QrCodeGenerator from '@/views/QrCodeGenerator.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,10 @@ const router = createRouter({
     { path: '/slug',
       name: 'slug',
       component: SlugGenerator
+    },
+    { path: '/qrcode',
+      name: 'qrcode',
+      component: QrCodeGenerator
     }
   ]
 })
