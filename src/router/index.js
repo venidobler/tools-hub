@@ -6,6 +6,7 @@ import TimestampConverter from '@/views/TimestampConverter.vue'
 import PasswordGenerator from '@/views/PasswordGenerator.vue'
 import SlugGenerator from '@/views/SlugGenerator.vue'
 import QrCodeGenerator from '@/views/QrCodeGenerator.vue'
+import MarkdownPreviewer from '@/views/MarkdownPreviewer.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,10 @@ const router = createRouter({
     { path: '/qrcode',
       name: 'qrcode',
       component: QrCodeGenerator
+    },
+    { path: '/markdown',
+      name: 'markdown',
+      component: MarkdownPreviewer
     }
   ]
 })
