@@ -61,6 +61,12 @@ import { RouterLink, RouterView } from 'vue-router'
           >
           Markdown Previewer
         </RouterLink>
+        <RouterLink
+          to="/contador"
+          class="block px-4 py-3 rounded-lg transition-colors hover:bg-slate-700 active-link"
+          >
+          Analisador de Texto
+        </RouterLink>
       </nav>
     </aside>
 

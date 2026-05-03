@@ -7,6 +7,8 @@ import PasswordGenerator from '@/views/PasswordGenerator.vue'
 import SlugGenerator from '@/views/SlugGenerator.vue'
 import QrCodeGenerator from '@/views/QrCodeGenerator.vue'
 import MarkdownPreviewer from '@/views/MarkdownPreviewer.vue'
+import TextCounter from '@/views/TextCounter.vue'
+import { Text } from 'vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +45,10 @@ const router = createRouter({
     { path: '/markdown',
       name: 'markdown',
       component: MarkdownPreviewer
+    },
+    { path: '/contador',
+      name: 'contador',
+      component: TextCounter
     }
   ]
 })
